@@ -1,49 +1,79 @@
-@media (max-width:425px) {
-  .photo-title h1{
-    margin-top: 10px;
+  @media (max-width: 425px) {
+    * {
+      margin-right: 215px;
+      padding: 25px;
+  
   }
-  .grids {
-    margin-top: 30px;
-    margin-bottom: 30px;
+  
+    .nav-item a {
+      font-size: 10px;
+    }
+  
+    .menu-nav button{
+      max-width: 50px;
+    }
+    button.navbar-toggler {
+      font-size: 14px; 
+  
+    }
+    .logo2 img{ 
+      max-width: 100%;
+      height: auto;
   }
-  .grids p{
-    font-size: 7px;
+  .redes {
+    gap: 3px;
+    margin-left: 40px;
+    justify-content: left;  
   }
-  .grids a{
-    font-size: 7px;
+  .redes img{
+    width: 10px;
   }
-    .youtube-videos iframe{
-        max-width: 100%;
-        height: auto;
-      }
-      .titulo-music {
-        max-width:100%;
-        height: auto;
-      }
-      .titulo-music p{
-        font-size: 10px;
-      }
-      .imagen-index {
-        justify-content: center;
-        align-items: center;
-        padding: 10px;
-        margin: 10px;
-      }
-      .imagen-index img{
-        max-width: 100%;
-        height: auto;
-        margin-right: 25px;
-      }
-      .PRESS {
-        margin-top: 30px;
-      }
-      .notas h2{
-        font-size: 10px;
-      }
-      .notas p{
-        font-size: 7px;
-      }
-      .subscribe-1 input {
-        margin-bottom: 10px;
-      }
-}
+
+    .photo-title h1{
+      margin-top: 10px;
+    }
+    .grids {
+      margin-top: 30px;
+      margin-bottom: 30px;
+    }
+    .grids p{
+      font-size: 7px;
+    }
+    .grids a{
+      font-size: 7px;
+    }
+      .youtube-videos iframe{
+          max-width: 100%;
+          height: auto;
+        }
+        .titulo-music {
+          max-width:100%;
+          height: auto;
+        }
+        .titulo-music p{
+          font-size: 10px;
+        }
+        .imagen-index {
+          justify-content: center;
+          align-items: center;
+          padding: 10px;
+          margin: 10px;
+        }
+        .imagen-index img{
+          max-width: 100%;
+          height: auto;
+          margin-right: 25px;
+        }
+        .PRESS {
+          margin-top: 30px;
+        }
+        .notas h2{
+          font-size: 10px;
+        }
+        .notas p{
+          font-size: 7px;
+        }
+        .subscribe-1 input {
+          margin-bottom: 10px;
+        }
+  }

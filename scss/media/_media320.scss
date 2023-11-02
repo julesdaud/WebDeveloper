@@ -1,5 +1,11 @@
 
 @media (max-width:320px) {
+  * {
+    margin-right: 215px;
+    padding: 25px;
+
+}
+
   .nav-item a {
     font-size: 10px;
   }
