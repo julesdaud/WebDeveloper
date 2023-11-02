@@ -1,0 +1,85 @@
+.container {
+  text-align: center;
+  margin-top: 100px;
+}
+.container h1{
+  font-size: 25px;
+  font-family: 'Martian Mono', monospace;
+  text-decoration: underline;
+  margin-bottom: 50px;
+  color: $color-primario;
+}
+
+
+.card-1 iframe {
+    transition: transform 0.2s;
+  }
+  .card-1:hover iframe {
+    transform: scale(1.05); 
+  }
+
+
+  .music-list {
+    justify-content: center;
+    align-items: center;
+    gap: 1.5625rem;
+    background-color: $color-primario;
+    padding-top: 75px;
+    padding-bottom: 75px;
+  }
+  .titulo-music {
+    text-align: center;
+    justify-content: center;
+    gap: .9375rem;
+  }
+  .music-list h1{
+    color: white;
+    font-size: 25px;
+    font-family: 'Martian Mono', monospace;
+    justify-content: center ;
+    align-items: center;
+    padding-bottom: 25px;
+    text-decoration: underline;
+  }
+  .music-list p{
+    color: $color-secundario;
+    font-family: 'Martian Mono', monospace;
+    text-align: center;
+    margin-right: 300px;
+    margin-left: 300px;
+    margin-bottom: 50px;
+    font-size: 15px;
+  }
+  .music-list p a{
+    color: $color-secundario;
+    font-family: 'Martian Mono', monospace;
+  }
+
+  .music-list p  :hover {
+    color: lightcoral;
+  }
+
+
+  .cards {
+    display: flex;
+    justify-content: center;
+    gap: .9375rem;
+
+  }
+    .card {
+      width: 400px; 
+      background-color:$color-primario; 
+      color: gray; 
+
+    }
+
+    .card img {
+      max-width: 100%; 
+      height: auto;
+      background-color: $color-primario;
+    }
+
+    .card:hover {
+      border-color: #ffffff;
+      box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+    }

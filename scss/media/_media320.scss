@@ -1,0 +1,58 @@
+
+@media (max-width:320px) {
+  .nav-item a {
+    font-size: 10px;
+  }
+
+  .menu-nav button{
+    max-width: 50px;
+  }
+  button.navbar-toggler {
+    font-size: 14px; 
+
+  }
+  .logo2 img{ 
+    max-width: 100%;
+    height: auto;
+}
+.redes {
+  gap: 3px;
+  margin-left: 40px;
+  justify-content: left;  
+}
+.redes img{
+  width: 10px;
+}
+  .contact {
+    display: inline;
+    justify-content:inline; 
+    align-items: center; 
+    text-align: center; 
+  }
+
+  .contact-1 h2{
+    justify-content: inline;
+  }
+
+  .notas h2{
+    font-size: 12px;
+  }
+  .notas p{
+    font-size: 7px;
+  }
+
+.youtube-videos iframe{
+  max-width: 100%;
+  height: auto;
+}
+.imagen-index img{
+  max-width: 100%;
+  height: auto;
+}
+.grids {
+  margin-top: 10px;
+  margin-bottom: 10px;  
+}
+
+
+}

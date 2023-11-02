@@ -1,0 +1,19 @@
+
+// main {
+//     background-color: $color-secundario
+//     ;    
+//     width: 100%;
+// }
+.imagen-index {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    margin: 10px;
+    background-color: $color-secundario
+    ;
+}
+.imagen-index img{
+    width: 1200px;
+}
+

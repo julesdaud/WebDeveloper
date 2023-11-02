@@ -1,0 +1,25 @@
+footer {
+    background-color: $color-secundario; 
+    width: 100%;
+    margin-top: 10px;
+}
+
+
+footer p{
+    font-family: 'Martian Mono', monospace;
+    color: gray;
+    font-size: 10px;
+    background-color:$color-secundario;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer p a{
+    font-family: 'Martian Mono', monospace;
+    color: gray;
+}
+
+footer p a :hover {
+    color: lightcoral;
+}

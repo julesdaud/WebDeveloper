@@ -1,0 +1,73 @@
+
+.contact {
+    justify-content:center; 
+    align-items: center; 
+    text-align: center; 
+    padding: 75px;
+    margin-top: 15px;
+  }
+
+  .contact-1 h1{
+    font-size: 25px;
+    color: $color-primario;
+
+    text-decoration: underline;
+  }
+.contact-1 h2{
+    font-size: 25px;
+    color: $color-primario;
+    font-family: 'Martian Mono', monospace; 
+    text-decoration: underline;
+    padding: 10px;
+}
+
+.contact-1 p a{
+    font-size: 15px;
+    color: $color-primario;
+}
+
+.contact-2 h1{
+    font-size: 25px;
+    color: $color-primario;
+    font-family: 'Martian Mono', monospace; 
+    text-decoration: underline  ;
+  }
+.contact-2 h2{
+    font-size: 20px;
+    color: $color-primario;
+    font-family: 'Martian Mono', monospace; 
+}
+
+.contact-2 p a{
+    font-size: 15px;
+    color: $color-primario;
+}
+
+  
+  .subscribe-1 {
+    justify-content:center; 
+    align-items: center; 
+    text-align: center; 
+    background-color: $color-primario;
+
+  }
+
+  .subscribe-1 h1 {
+    font-size: 25px;
+    color: rgb(255, 255, 255);
+    font-family: 'Martian Mono', monospace;
+
+  }
+  .subscribe-1 p{
+    margin-top: 10px;
+    color: lightcoral;
+    font-family: 'Martian Mono', monospace; 
+  }
+
+  .subscribe-1 input {
+    margin-bottom: 20px;
+  }
+
+  .contact a:hover {
+    color: #ff5733; 
+  }

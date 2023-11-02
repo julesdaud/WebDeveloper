@@ -1,0 +1,47 @@
+.menu-nav {
+    justify-content: center;
+    margin-left: 125px;
+    align-items: center;
+}
+button.navbar-toggler {
+    border: none
+}
+
+.nav-item a{
+    color: $color-primario;
+    font-size: 20px;
+    font-family: 'Martian Mono', monospace;
+    text-align: center;
+}
+
+.nav-item li a {
+  color: gray   ;
+  font-size: 20px;
+  gap: .625rem;
+}
+
+.navbar-nav .nav-link:hover {
+    color: lightcoral;
+    transition: color 1s;
+    text-decoration: underline;
+}
+
+.logo2 img{ 
+    width: 300px;
+    margin-right: 150px;
+}
+
+.redes {
+    background-color:$color-secundario  ;
+    display:flex; 
+    justify-content: center;
+    align-items: center;
+    gap: .625rem;
+    width: 100%;
+    margin-right: 200px;
+}
+
+
+.redes img{
+    width: 25px;
+}
